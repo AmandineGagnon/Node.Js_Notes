@@ -15,7 +15,6 @@ class Logger extends EventEmitter {
         //Raise event when log is called
         this.emit('messageLogged', {id: 1, url: 'http://'});
     }
-
 }
 
 //Instead of exporting the function, we are exporting the class
