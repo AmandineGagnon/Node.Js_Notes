@@ -10,6 +10,12 @@ app.get('/', (req, res)=>{
 })
 
 
+app.post('/login', (req, res)=>{
+    res.send('POST')
+})
+
+
+
 app.listen(5000, ()=>{
     console.log('Server is listening on port 5000...')
 })

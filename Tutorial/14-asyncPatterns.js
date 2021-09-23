@@ -34,7 +34,6 @@ start()
 //             } else {
 //                 resolve(data)
 //             }
-                    
 //         })
 //     })
 
